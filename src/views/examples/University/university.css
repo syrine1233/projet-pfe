@@ -1,0 +1,20 @@
+.actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .actions svg {
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: #e10d05;
+  }
+ 
+.add{
+  color: #e10d05;
+}
+
+.add-form-active {
+  padding-left: 20px; 
+}

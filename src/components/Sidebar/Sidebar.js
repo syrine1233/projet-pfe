@@ -3,7 +3,6 @@ import { NavLink as NavLinkRRD, Link } from "react-router-dom";
 // nodejs library to set properties for components
 import { PropTypes } from "prop-types";
 
-
 // reactstrap components
 import {
   
@@ -23,7 +22,6 @@ import {
   NavItem,
   NavLink,
   Nav,
-  
   Container,
   Row,
   Col,
@@ -209,7 +207,10 @@ const Sidebar = (props) => {
           <Nav navbar>{createLinks(routes)}</Nav>
       
           <hr className="my-3" />
-          </Collapse>
+          <h3>University</h3>
+          
+           
+             </Collapse>
       </Container>
     </Navbar>
   );

@@ -404,7 +404,7 @@ let chartExample3 = {
     },
   },
   data: {
-    labels: ['Male', 'Female'],
+    labels: ['Female','Male'],
     datasets: [
       {
         

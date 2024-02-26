@@ -24,12 +24,12 @@ const Piechart = () => {
 return(
 
     <Col className="mb-5 mb-xl-0" xl="4">
-      <Card className="bg-gradient-default shadow">
+      <Card className="shadow">
         <CardHeader className="bg-transparent">
           <Row className="align-items-center">
             <div className="col">
 
-              <h2 className="text-white mb-0">User Gender</h2>
+              <h2 className="text-uppercase text-muted ls-1 mb-1">User Gender</h2>
             </div>
           </Row>
         </CardHeader>
